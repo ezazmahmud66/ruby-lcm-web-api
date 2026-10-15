@@ -1,0 +1,28 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# Bundler local configuration
+.bundle/
+
+# Local installed gems
+vendor/bundle/
+
+# Coverage and temporary test output
+coverage/
+tmp/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor local settings
+.vscode/
+.idea/

@@ -1,4 +1,6 @@
 
 source "https://rubygems.org"
 
-# Sinatra and testing dependencies will be added in later phases.
+gem "sinatra", "~> 4.2"
+gem "rackup", "~> 2.2"
+gem "puma", "~> 7.0"
